@@ -45,26 +45,26 @@ int main(){
 				}
 				break;
 			case 3: 
-				int edit;
-				printf("Nhap so mon an can sua: ");
-				scanf("%d",&edit);
-				int fount =0;
-				for(int i=0;i<count;i++){
-					if(Menu[i].id==edit){
-						fount=1;
-						printf("Nhap ten mon an moi: ");
-						getchar();
-						char news[50];
-						fgets(news,sizeof(news),stdin);
-						news[strcspn(news,"\n")]='\0';
-						if (strlen(news) > 0) {
-                            strcpy(Menu[i].name, news);
-						}
+				// int edit;
+				// printf("Nhap so mon an can sua: ");
+				// scanf("%d",&edit);
+				// int fount =0;
+				// for(int i=0;i<count;i++){
+				// 	if(Menu[i].id==edit){
+				// 		fount=1;
+				// 		printf("Nhap ten mon an moi: ");
+				// 		getchar();
+				// 		char news[50];
+				// 		fgets(news,sizeof(news),stdin);
+				// 		news[strcspn(news,"\n")]='\0';
+				// 		if (strlen(news) > 0) {
+    //                         strcpy(Menu[i].name, news);
+				// 		}
 //						printf("Nhap gia moi: ");
 //						double newss;
 //						scanf("%lf",&newss);
 //					}
-					printf("Sua thanh cong");
+					printf("Chua tim ra loi sai");
 				break;
 			case 4: {
 				int deletes;
